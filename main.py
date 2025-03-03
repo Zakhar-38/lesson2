@@ -13,7 +13,7 @@ app.use(express.json())
 app.use('/api', router)
 
 app.get('/', (req, res)=>{
-  res.status(200).json({message:'Working'})
+  res.status(200).json({message:'hello world'})
 })
 
 const start = async () => {
